@@ -3,7 +3,8 @@ using Cultivation_Way;
 
 namespace Addon_Namespace
 {
-	class Addon_Main_Class : CW_Addon
+	[ModEntry]
+	public class Addon_Main_Class : CW_Addon
 	{
 		public override void awake(){
 			// 不要在此处添加代码，除非你知道你在做什么
